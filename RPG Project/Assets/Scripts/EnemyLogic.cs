@@ -21,9 +21,11 @@ public class EnemyLogic : MonoBehaviour {
 		eHealth = enemyHealth;
 		eStam = enemyStamina;
 	}
-
-	public int enemyAttack(int dmg){
-		dmg = 50;
+		
+	public int enemyAttack(){
+		int dmg = 50;
 		return dmg;
+		//Player h = new Player ();
+
 	}
 }
